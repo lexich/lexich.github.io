@@ -1,28 +1,47 @@
 <html>
 <head>
-<link href="static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link href="static/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
-<script src="static/bootstrap/js/bootstrap.min.js"></script>
-<title>Hello lexich</title>
+<!--<link href="static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="static/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">-->
+<!--<script src="static/bootstrap/js/bootstrap.min.js"></script>-->
+<link rel="stylesheet" href="static/css/style.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script type="text/javascript">
+  (function($){
+    $(document).ready(function() {
+      var idea1 = "static/img/idea.png";
+      var idea2 = "static/img/idea2.png";
+      var timeout = null;      
+      $("a").hover(function(){
+        $("#idea").attr("src",idea2);
+        if(timeout!=null){
+          clearTimeout(timeout);
+        }
+        timeout = setTimeout(function() {
+          console.log("time");
+          $("#idea").attr("src",idea1);
+          timeout = null;
+        }, 300);        
+      });
+    });    
+  })(jQuery);
+</script>
+<title>Efremov Alexey profile</title>
 </head>
 <body>
-  <h1>Efremov Alexey</h1>
-  <div class="container-fluid">
-    <div class="row-fluid">    
-      <div class="span10">
-        <ul>
-          <li><a href="https://github.com/lexich/">Github</a></li>
-          <li><a href="http://pdj.com/yalexich">PromoDJ</a></li>
-          <li><a href="http://www.linkedin.com/pub/alexey-efremov/20/3a4/810">LinkedIN</a></li>
-          <li><a href="http://twitter.com/lexich">Twitter</a></li>
-          <li><a href="http://vk.com/lexich">Vkontakte</a></li>
-          <li><a href="http://facebook.com/lexich">Facebook</a></li>
-        </ul>
-      </div>
-      <div class="span2">
-        
-      </div>
+  <div id="main">
+    <h1 style="text-align: center">Efremov Alexey profile</h1>  
+    <div id="links">
+      <ul>
+      <li><a href="https://github.com/lexich/">Github</a></li>
+      <li><a href="http://pdj.com/yalexich">PromoDJ</a></li>
+      <li><a href="http://www.linkedin.com/pub/alexey-efremov/20/3a4/810">LinkedIN</a></li>
+      <li><a href="http://twitter.com/lexich">Twitter</a></li>
+      <li><a href="http://vk.com/lexich">Vkontakte</a></li>
+      <li><a href="http://facebook.com/lexich">Facebook</a></li>
+    </ul>  
     </div>
+    
+    <img src="static/img/idea.png" id="idea" alt="idea" style="float: right;" />    
   </div>
 </body>
 </html>
