@@ -1,0 +1,40 @@
+@import url(http://fonts.googleapis.com/css?family=Cuprum:400,700&subset=latin,cyrillic);
+body{
+	background:#3B4D61 url(../img/bg.jpg) repeat 0 0;
+	font-family: 'Cuprum', sans-serif;
+}
+h1{
+	 text-shadow: 0px 2px 2px #74818F;
+	 color: #1F2F3F;
+}
+
+#main{
+	width: 500px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+a{
+	background: #1F2F3F;
+	opacity: 0.6;
+	color: #ffffff;
+	border-radius: 1em;
+	padding: 3px 10px 3px 10px;
+	text-decoration: none;
+}
+
+a:hover{
+	opacity: 1;
+}
+
+
+#links{
+	width:200px;
+	overflow: hidden;
+	float: left;
+}
+#links ul > li{
+	margin-bottom: 10px;
+	list-style: none;
+	width:100px;
+}
