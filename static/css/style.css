@@ -14,18 +14,7 @@ h1{
 	overflow: hidden;
 }
 
-a{
-	background: #1F2F3F;
-	opacity: 0.6;
-	color: #ffffff;
-	border-radius: 1em;
-	padding: 3px 10px 3px 10px;
-	text-decoration: none;
-}
 
-a:hover{
-	opacity: 1;
-}
 
 
 #links{
@@ -37,4 +26,30 @@ a:hover{
 	margin-bottom: 10px;
 	list-style: none;
 	width:100px;
+}
+
+a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+#links a{	
+	background: #1F2F3F;
+	opacity: 0.6;	
+	border-radius: 1em;
+	padding: 3px 10px 3px 10px;	
+}
+
+#links a:hover{
+	opacity: 1;
+}
+
+#external-links{
+	overflow: hidden;
+	float: left;
+	width: 600px;
 }

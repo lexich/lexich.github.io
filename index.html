@@ -1,10 +1,9 @@
 <html>
 <head>
-<!--<link href="static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link href="static/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">-->
-<!--<script src="static/bootstrap/js/bootstrap.min.js"></script>-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link rel="stylesheet" href="static/css/style.css">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script src="static/js/showdown.js"></script>
 <script type="text/javascript">
   (function($){
     $(document).ready(function() {
@@ -22,7 +21,17 @@
           timeout = null;
         }, 300);        
       });
-    });    
+
+      var converter = new Showdown.converter();
+      $(".markdown").each(
+        function(){
+          var text = $(this).find("textarea").text();
+          var html = converter.makeHtml(text);
+          $(this).html(html);
+        }
+      );
+      
+    });     
   })(jQuery);
 </script>
 <title>Efremov Alexey profile</title>
@@ -40,8 +49,18 @@
       <li><a href="http://facebook.com/lexich">Facebook</a></li>
     </ul>  
     </div>
-    
     <img src="static/img/idea.png" id="idea" alt="idea" style="float: right;" />    
+    <div id="external-links" class="markdown">      
+      <textarea>
+###Usefull links
+
+- [Django video, over 250 movies](http://equallytrue.blogspot.com/2012/05/170-django-conference-videos.html)
+- [Avgrund](http://lab.hakim.se/avgrund) - модальные окна, «отодвигающие» контент в третье измерение. Эксперимент интересен тем, что автор использовал по назначению фильтр blur, из спецификации CSS Filters, которая недавно была реализована в последних версиях движка WebKit
+      </textarea>
+      
+    </div>  
+    
   </div>
+  
 </body>
 </html>
