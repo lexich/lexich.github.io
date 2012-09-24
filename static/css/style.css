@@ -14,9 +14,6 @@ h1{
 	overflow: hidden;
 }
 
-
-
-
 #links{
 	width:200px;
 	overflow: hidden;
@@ -53,7 +50,7 @@ a:hover{
 	float: left;
 	width: 600px;
 }
-#external-links li{
+#external-links strong{
 	margin-left:-40px;
-	list-style-type:none;
+	color: green;
 }
