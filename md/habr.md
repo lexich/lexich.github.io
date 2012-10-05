@@ -1,0 +1,1 @@
+> [Как правильно ставить задачи для сайта](http://habrahabr.ru/company/kelnik/blog/153323/) - статья

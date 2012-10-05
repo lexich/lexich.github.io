@@ -3,26 +3,34 @@ body{
 	background:#3B4D61 url(../img/bg.jpg) repeat 0 0;
 	font-family: 'Cuprum', sans-serif;
 }
-h1{
+h1, h2{
 	 text-shadow: 0px 2px 2px #74818F;
 	 color: #1F2F3F;
 }
 
 #main{
-	width: 610px;
+	width: 800px;
 	margin: 0 auto;
 	overflow: hidden;
 }
 
 #links{
-	width:200px;
+	max-width:700px;
 	overflow: hidden;
+	float: right;
+	padding: 18px 0px;
+}
+
+#idea{
+	width: 100px;
 	float: left;
 }
-#links ul > li{
-	margin-bottom: 10px;
+
+.links ul > li{	
 	list-style: none;
-	width:100px;
+	min-width:100px;
+	float: left;
+	margin-bottom: 10px;
 }
 
 a{
@@ -34,25 +42,34 @@ a:hover{
 	text-decoration: underline;
 }
 
-#links a{	
+.links ul > li a{	
 	background: #1F2F3F;
 	opacity: 0.6;	
 	border-radius: 1em;
 	padding: 3px 10px 3px 10px;	
 }
 
-#links a:hover{
+.links ul > li a:hover{
 	opacity: 1;
 }
 
 #external-links{
 	overflow: hidden;
 	float: left;
-	width: 600px;
+	width: 100%;
 }
 #external-links strong{
 	color: green;
 }
 #external-links p{
 	text-align:justify;	
+}
+
+.control {
+	width: 20%;
+	float:left;
+}
+.content{
+	width: 80%;
+	float:left;
 }
