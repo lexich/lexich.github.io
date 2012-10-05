@@ -25,7 +25,7 @@
     var idea1 = "static/img/idea.png";
     var idea2 = "static/img/idea2.png";
     var timeout = null;      
-    $("#linksa").hover(function(){
+    $("#links a").hover(function(){
       $("#idea").attr("src",idea2);
       if(timeout!=null){
         clearTimeout(timeout);
