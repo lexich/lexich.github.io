@@ -1,6 +1,5 @@
-(function($){
-  var converter = new Showdown.converter();
-
+(function($){    
+  var converter = new Markdown.Converter();;
   var Router = Backbone.Router.extend({
     SELECTOR: ".ui_panel .content",
     ACTIVE_LINK: "active_link",
