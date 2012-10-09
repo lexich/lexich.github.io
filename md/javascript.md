@@ -1,3 +1,5 @@
+> [JavaScript Dependency Injection](http://merrickchristensen.com/articles/javascript-dependency-injection.html) - This article is a brief introduction to dependency injection and how it fits into JavaScript. It will also demystify the elegant way AngularJS implements dependency injection.
+
 > [Jarallax](http://www.jarallax.com/) - pretty parallax effect plugin
 
 > [Noty](http://needim.github.com/noty/) - noty is a jQuery plugin that makes it easy to create alert - success - error - warning - information - confirmation messages as an alternative the standard alert dialog
