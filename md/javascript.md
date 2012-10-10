@@ -1,3 +1,5 @@
+> [Windy](http://habrahabr.ru/post/154347/) - jQuery-плагин слайдера с очень красивым эффектом
+
 > [JavaScript Dependency Injection](http://merrickchristensen.com/articles/javascript-dependency-injection.html) - This article is a brief introduction to dependency injection and how it fits into JavaScript. It will also demystify the elegant way AngularJS implements dependency injection.
 
 > [Jarallax](http://www.jarallax.com/) - pretty parallax effect plugin
