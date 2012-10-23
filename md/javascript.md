@@ -1,3 +1,5 @@
+> [Как работает оператор delete](http://habrahabr.ru/post/155849/)
+
 > [Windy](http://habrahabr.ru/post/154347/) - jQuery-плагин слайдера с очень красивым эффектом
 
 > [JavaScript Dependency Injection](http://merrickchristensen.com/articles/javascript-dependency-injection.html) - This article is a brief introduction to dependency injection and how it fits into JavaScript. It will also demystify the elegant way AngularJS implements dependency injection.
