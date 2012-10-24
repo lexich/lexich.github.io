@@ -1,3 +1,5 @@
+> [JSTER](http://jster.net/) - javascript's library catalog
+
 > [Как работает оператор delete](http://habrahabr.ru/post/155849/)
 
 > [Windy](http://habrahabr.ru/post/154347/) - jQuery-плагин слайдера с очень красивым эффектом
