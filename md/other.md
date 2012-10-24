@@ -1,3 +1,5 @@
+> [brainexer](http://ru.brainexer.com/) - упражнения для тренировки мозга
+
 > [Free proxy list](http://www.hidemyass.com/proxy-list/) - Real-time auto-updatable database of free working IP:PORT proxies
 
 > [Patched fonts](https://github.com/Lokaltog/vim-powerline/wiki/Patched-fonts) - Because of possible licensing issues fonts will never be included in the main Powerline code repo. This page consists of user-contributed patched fonts for use with Powerline.
