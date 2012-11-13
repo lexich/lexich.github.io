@@ -1,5 +1,7 @@
 > [Python — оптимизация хвостовой рекурсии](http://habrahabr.ru/post/158385/)
 
+> [Python — оптимизация хвостовой рекурсии](http://habrahabr.ru/post/158385/)
+
 > [PUDB](https://github.com/inducer/pudb) - Full-screen console debugger for Python
 
 > [Django design patterns](http://agiliq.com/books/djangodesignpatterns/) - This is a collection of patterns which we have found occurring commonly with Django. All of these either make collaboration easier, coding simpler or code more maintainable. None of them are design patterns in the sense of GoF design patterns. We call them design patterns as none other seem closer or more convenient.
