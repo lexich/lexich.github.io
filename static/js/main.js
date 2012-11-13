@@ -10,8 +10,7 @@
     BORDER: 50,
     BORDER_TOP:30,
     events:{
-      "click img": "event_clickImg",
-      "mousemove img": "event_hoverImgAnimate"
+      "click img": "event_clickImg"
     },
     initialize:function(options){
       this.selector = options.selector;
