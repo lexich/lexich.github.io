@@ -1,6 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Cuprum:400,700&subset=latin,cyrillic);
-body{
-	background:#3B4D61 url(../img/bg.jpg) repeat 0 0;
+body{	
 	font-family: 'Cuprum', sans-serif;
 }
 h1, h2{
@@ -14,17 +13,7 @@ h1, h2{
 	overflow: hidden;
 }
 
-#links{
-	max-width:700px;
-	overflow: hidden;
-	float: right;
-	padding: 18px 0px;
-}
 
-#idea{
-	width: 100px;
-	float: left;
-}
 
 .links ul > li{	
 	list-style: none;
@@ -34,7 +23,7 @@ h1, h2{
 }
 
 a{
-	color: #ffffff;
+	color: #000000;
 	text-decoration: none;
 }
 
@@ -43,7 +32,7 @@ a:hover{
 }
 
 .links ul > li a{	
-	background: #1F2F3F;
+	font-size: 26px;
 	opacity: 0.6;	
 	border-radius: 1em;
 	padding: 3px 10px 3px 10px;	
@@ -53,26 +42,48 @@ a:hover{
 	opacity: 1;
 }
 
-#external-links{
-	overflow: hidden;
+.messageBox{	
+	margin: 0 auto;
+	display:none;
+	width: 90%;	
+	height: 90%;
+
+}
+.messageBox__hide{
+	float:right; 
+	margin-right: 40px;
+	margin-top:20px;
+	background: white;
+	border-radius:0.5em;
+	padding: 0 8px;
+	font-size: 22px;
+}
+.messageBox__content{
+	overflow: auto;	
+	width: 90%;
+	height: 80%;
+	margin-left: 20px;
 	float: left;
-	width: 100%;
-}
-#external-links strong{
-	color: green;
-}
-#external-links p{
-	text-align:justify;	
+	border: 1px solid grey;	
+	border-radius: 1em;
+	background:white;
+	padding: 30px;
+	font-size: 22px;
 }
 
-.control {
-	width: 20%;
-	float:left;
+.messageBox__content a{
+	opacity: 0.6;	
 }
-.content{
-	width: 80%;
-	float:left;
+
+.workarea{	
+	width: 800px;		
+	margin: 0 auto;
+	height: 1px;	
 }
-.active_link{
-	text-decoration: underline;
+.polaroid__item { 
+	width:180px; 
+	height:170px; 
+	position:absolute; 
 }
+.polaroid__item img { width:90%; margin:25px 0 0 15px; border-radius: 1em; cursor: pointer;}
+.polaroid__item p { text-align:center; font-family:Georgia,serif; font-size:20px; color:#2E2E2E; margin-top:15px; }
