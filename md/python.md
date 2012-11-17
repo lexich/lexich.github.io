@@ -1,4 +1,4 @@
-> (django-denorm)[https://github.com/initcrash/django-denorm] - provides a declarative way of denormalizing models in Django based applications while maintaining data consistency
+> [django-denorm](https://github.com/initcrash/django-denorm) - provides a declarative way of denormalizing models in Django based applications while maintaining data consistency
 
 > [Python — оптимизация хвостовой рекурсии](http://habrahabr.ru/post/158385/)
 
