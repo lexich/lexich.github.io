@@ -1,3 +1,5 @@
+> [sketch.js](https://github.com/soulwire/sketch.js) - Cross-Platform JavaScript Creative Coding Framework **graphics**
+
 > [JSTER](http://jster.net/) - javascript's library catalog
 
 > [Как работает оператор delete](http://habrahabr.ru/post/155849/)
