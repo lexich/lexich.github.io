@@ -1,3 +1,5 @@
+> [Python internals: Working with Python ASTs](http://eli.thegreenplace.net/2009/11/28/python-internals-working-with-python-asts/)
+
 > [django-denorm](https://github.com/initcrash/django-denorm) - provides a declarative way of denormalizing models in Django based applications while maintaining data consistency
 
 > [Python — оптимизация хвостовой рекурсии](http://habrahabr.ru/post/158385/)
