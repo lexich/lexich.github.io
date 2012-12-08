@@ -1,1 +1,3 @@
+> [A Guide To: Better And Sharper UI Icons With Web Fonts](http://www.hongkiat.com/blog/webfont-icons/)
+
 > [Casper-Typeface](http://www.behance.net/gallery/Casper-Typeface/4919301) - This is a continuation of my experimentation with fonts. Significant and minor revisions in the structure of characters. Also changed some of the characters forming. It still has elements of different styles, but Casper has become more holistic and harmonious.Includes arrows, alternate characters and signs, and legatury ordinals. Total 582 glyph.
