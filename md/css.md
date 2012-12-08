@@ -1,3 +1,5 @@
+> [Псевдоклассы CSS3 и формы в HTML5](http://css-live.ru/articles/psevdoklassy-css3-i-formy-v-html5.html)
+
 > [Hover-эффекты на CSS](http://habrahabr.ru/post/158901/)
 
 > [Красивые чекбоксы и радиокнопки на CSS3 без JavaScript](http://habrahabr.ru/post/154687/)
