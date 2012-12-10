@@ -1,3 +1,5 @@
+> [dustjs](https://github.com/linkedin/dustjs/wiki/Dust-Tutorial) - veri quick javascript templating library (verified by linkedin )
+
 > [Grunt](https://github.com/gruntjs/grunt/) - Grunt is a task-based command line build tool for JavaScript projects
 
 > [sketch.js](https://github.com/soulwire/sketch.js) - Cross-Platform JavaScript Creative Coding Framework **graphics**
