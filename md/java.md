@@ -1,0 +1,1 @@
+> [Java собеседование. Коллекции](http://habrahabr.ru/post/162017/) - Вопросы с собеседований на тему java-collection
