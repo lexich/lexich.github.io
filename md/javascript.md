@@ -1,3 +1,5 @@
+> [FULLSCREEN PAGEFLIP LAYOUT](http://tympanus.net/codrops/2012/12/11/fullscreen-pageflip-layout/) - A tutorial on how to create a fullscreen pageflip layout using BookBlock. The idea is to flip the content like book pages and access the pages via a sidebar menu that will slide out from the left.
+
 > [Fabric.js](http://fabricjs.com/) - Fabric.js is a powerful and simple Javascript canvas library
 
 > [dustjs](https://github.com/linkedin/dustjs/wiki/Dust-Tutorial) - veri quick javascript templating library (verified by linkedin )
