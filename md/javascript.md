@@ -1,3 +1,5 @@
+> [Crumble](http://tommoor.github.com/crumble/) - плагин, использующий grumble.js, для создания тура по сайту в виде подсказок.
+
 > [SIMPLE EFFECTS FOR DROP-DOWN LISTS](http://tympanus.net/codrops/2012/11/29/simple-effects-for-drop-down-lists/) - A jQuery plugin for transforming select inputs into drop-down lists with some simple expanding effects
 
 > [FULLSCREEN PAGEFLIP LAYOUT](http://tympanus.net/codrops/2012/12/11/fullscreen-pageflip-layout/) - A tutorial on how to create a fullscreen pageflip layout using BookBlock. The idea is to flip the content like book pages and access the pages via a sidebar menu that will slide out from the left.
