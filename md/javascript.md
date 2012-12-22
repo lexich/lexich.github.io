@@ -1,3 +1,5 @@
+> [App folder](http://app-folders.com/) - Effortlessly arrange items as on an iOS device.
+
 > [Crumble](http://tommoor.github.com/crumble/) - плагин, использующий grumble.js, для создания тура по сайту в виде подсказок.
 
 > [SIMPLE EFFECTS FOR DROP-DOWN LISTS](http://tympanus.net/codrops/2012/11/29/simple-effects-for-drop-down-lists/) - A jQuery plugin for transforming select inputs into drop-down lists with some simple expanding effects
