@@ -1,3 +1,5 @@
+> [pip2pi](https://github.com/wolever/pip2pi) - Свой PyPI-совместимый локальный репозиторий теперь создать ещё проще.
+
 > [Python internals: Working with Python ASTs](http://eli.thegreenplace.net/2009/11/28/python-internals-working-with-python-asts/)
 
 > [django-denorm](https://github.com/initcrash/django-denorm) - provides a declarative way of denormalizing models in Django based applications while maintaining data consistency
