@@ -1,3 +1,5 @@
+> [django-cked](https://bitbucket.org/ssbb/django-cked) - CKEditor and elFinder integration for Django Framework.
+
 > [pip2pi](https://github.com/wolever/pip2pi) - Свой PyPI-совместимый локальный репозиторий теперь создать ещё проще.
 
 > [Python internals: Working with Python ASTs](http://eli.thegreenplace.net/2009/11/28/python-internals-working-with-python-asts/)
