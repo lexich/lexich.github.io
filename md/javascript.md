@@ -1,3 +1,5 @@
+> [Egghead.io](http://Egghead.io) — видео курс по AngularJS
+
 > [App folder](http://app-folders.com/) - Effortlessly arrange items as on an iOS device.
 
 > [Crumble](http://tommoor.github.com/crumble/) - плагин, использующий grumble.js, для создания тура по сайту в виде подсказок.
