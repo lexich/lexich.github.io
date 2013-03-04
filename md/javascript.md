@@ -1,3 +1,5 @@
+> [Fuel UX](http://exacttarget.github.com/fuelux/#) - Fuel UX extends Twitter Bootstrap with additional lightweight JavaScript controls
+
 > [Egghead.io](http://Egghead.io) — видео курс по AngularJS
 
 > [App folder](http://app-folders.com/) - Effortlessly arrange items as on an iOS device.
