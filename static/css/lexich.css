@@ -1,5 +1,4 @@
 
-
 body{
 	background: #000000 url("https://www.filepicker.io/api/file/3roRWAohSweiKzdCjJX1") 100% 0 repeat-y;
 	background-size: cover;
@@ -18,7 +17,7 @@ body{
 }
 .ui_paper__stamp{
 	width: 150px;
-	margin: -18px 0px 0px 235px;
+	margin: -60px 0px 0px 235px;
 }
 
 .ui_json{
