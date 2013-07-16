@@ -1,0 +1,78 @@
+
+
+body{
+	background: #000000 url("https://www.filepicker.io/api/file/3roRWAohSweiKzdCjJX1") 100% 0 repeat-y;
+	background-size: cover;
+}
+
+
+.ui_paper{	
+	width: 400px;
+	margin: 100px auto 0;
+}
+.ui_paper__layout{
+	width: 400px;	
+}
+.ui_paper__stamp{
+	width: 150px;
+	margin: -18px 0px 0px 235px;
+}
+
+.ui_json{
+	margin: -560px 0px 0px 0px;
+	font-family: 'Special Elite', cursive;
+}
+
+.ui_json ul{
+	padding-left: 30px;
+}
+
+.ui_json, .ui_json ul, .ui_json li{
+	text-decoration: none;
+	list-style: none;
+	line-height: 25px;
+}
+
+.ui_json__key{
+	color: #aa0000;
+	display: inline-block;
+}
+.ui_json__key:before{
+	content: "\"";
+	color: black;
+}
+.ui_json__key:after{
+	content: "\":";
+	color: black;	
+}
+
+.ui_json__key-avatar{
+	line-height: 60px;
+	/*
+	vertical-align: middle;
+	display: table-row;*/
+}
+
+.ui_json__value:before{
+	content: " \"";
+	color: black;	
+}
+.ui_json__value:after{
+	content: "\"";
+	color: black;		
+}
+
+
+.ui_json__value-avatar{
+	margin: 0px 0px -20px 20px;
+}
+
+.ui_json a{
+	color: black;
+	text-decoration: underline;
+	
+}
+.ui_json a:hover{
+	background: yellow;
+	text-decoration: none;
+}
