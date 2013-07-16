@@ -4,11 +4,14 @@ body{
 	background: #000000 url("https://www.filepicker.io/api/file/3roRWAohSweiKzdCjJX1") 100% 0 repeat-y;
 	background-size: cover;
 }
-
-
 .ui_paper{	
 	width: 400px;
 	margin: 100px auto 0;
+}
+.ui_paper__title{
+	text-align: center;
+	padding: 0px 0px 0px 0px;
+	font-size: 27px;
 }
 .ui_paper__layout{
 	width: 400px;	

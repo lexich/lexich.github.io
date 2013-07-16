@@ -2,65 +2,8 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	
 	<url>
 		<loc>http://lexich.ru</loc>
-        <lastmod>2012-10-05T14:25:02+00:00</lastmod>
+        <lastmod>2013-07-16T14:25:02+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
 	</url>
-    <url>
-        <loc>http://lexich.ru#!page/bem</loc>
-        <lastmod>2012-10-05T14:25:02+00:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>    
-    <url>
-        <loc>http://lexich.ru#!page/css</loc>
-        <lastmod>2012-10-05T14:25:02+00:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>    
-    <url>
-        <loc>http://lexich.ru#!page/font</loc>
-        <lastmod>2012-10-05T14:25:02+00:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
-    
-    <url>
-        <loc>http://lexich.ru#!page/habr</loc>
-        <lastmod>2012-10-05T14:25:02+00:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>          
-    <url>
-        <loc>http://lexich.ru#!page/html</loc>
-        <lastmod>2012-10-05T14:25:02+00:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>http://lexich.ru#!page/javascript</loc>
-        <lastmod>2012-10-05T14:25:02+00:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>http://lexich.ru#!page/python</loc>
-        <lastmod>2012-10-05T14:25:02+00:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
-          
-    <url>
-        <loc>http://lexich.ru#!page/scala</loc>
-        <lastmod>2012-10-05T14:25:02+00:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-          
-    <url>
-        <loc>http://lexich.ru#!page/yandex</loc>
-        <lastmod>2012-10-05T14:25:02+00:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
 </urlset>
