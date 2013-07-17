@@ -5,22 +5,32 @@ body{
 
 
 .ui_paper{		
-	margin: 100px auto 0;
+	margin: 30px auto 0;
+	width: 845px;	
 }
 
-.ui_paper, .ui_paper__layout{
+.ui_paper__layout{
 	width: 400px;	
+	margin: -11px 0px 0px -15px
 }
 
 .ui_paper__title{
-	text-align: center;
+	text-align: left;
 	padding: 0px 0px 0px 0px;
 	font-size: 22px;
 }
 
 .ui_paper__stamp{
 	width: 150px;
-	margin: -60px 0px 0px 235px;
+	margin: -60px 0px 0px 209px;
+}
+
+.ui_paper__photo{
+	height: 584px;
+	width: 850px;
+	background: transparent url("https://www.filepicker.io/api/file/l8BaS3TQICkrECigrJzN") -88px 0px no-repeat;
+	margin: 0px 0px 0px 0px;
+	border-radius: 2em;
 }
 
 .ui_json{
