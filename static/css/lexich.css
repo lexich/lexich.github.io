@@ -66,7 +66,7 @@ body{
 	color: black;
 }
 .ui_json__links a:after{
-	content: "\":";
+	content: "\"";
 	color: black;	
 }
 .ui_json__key-avatar{
