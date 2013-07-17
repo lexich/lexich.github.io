@@ -2,18 +2,22 @@ body{
 	background: #000000 url("https://www.filepicker.io/api/file/3roRWAohSweiKzdCjJX1") 100% 0 repeat-y;
 	background-size: cover;
 }
-.ui_paper{	
-	width: 400px;
+
+
+.ui_paper{		
 	margin: 100px auto 0;
 }
+
+.ui_paper, .ui_paper__layout{
+	width: 400px;	
+}
+
 .ui_paper__title{
 	text-align: center;
 	padding: 0px 0px 0px 0px;
 	font-size: 22px;
 }
-.ui_paper__layout{
-	width: 400px;	
-}
+
 .ui_paper__stamp{
 	width: 150px;
 	margin: -60px 0px 0px 235px;
@@ -48,10 +52,7 @@ body{
 }
 
 .ui_json__key-avatar{
-	line-height: 60px;
-	/*
-	vertical-align: middle;
-	display: table-row;*/
+	line-height: 60px;	
 }
 
 .ui_json__value:before{
@@ -76,4 +77,29 @@ body{
 .ui_json a:hover{
 	background: yellow;
 	text-decoration: none;
+}
+
+@media only screen and (max-device-width: 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
+	* {
+		font-size: 30px;
+		line-height: 50px;
+	}
+	.ui_paper{		
+		margin: 0 auto;		
+		line-height: 100px;
+	}
+	.ui_paper, .ui_paper__layout{
+		width: 800px;
+	}
+	.ui_json{
+		padding: 0 100px;
+		margin: -1160px 0px 0px 0px;
+	}
+	.ui_paper__title{
+		font-size: 1.3em;
+	}
+	.ui_paper__stamp{
+		width: 350px;
+		margin: -30px 0px 0px 400px;
+	}
 }
