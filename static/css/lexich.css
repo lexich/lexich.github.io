@@ -61,6 +61,14 @@ body{
 	color: black;	
 }
 
+.ui_json__links a:before{
+	content: "\"";
+	color: black;
+}
+.ui_json__links a:after{
+	content: "\":";
+	color: black;	
+}
 .ui_json__key-avatar{
 	line-height: 60px;	
 }
