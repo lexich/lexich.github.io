@@ -1,115 +1,101 @@
-body{
-	background: #000000 url("https://www.filepicker.io/api/file/3roRWAohSweiKzdCjJX1") 100% 0 repeat-y;
-	background-size: cover;
-}
+body {
+  background: white url("https://www.filepicker.io/api/file/3roRWAohSweiKzdCjJX1") 100% 0 repeat-y;
+  background-size: cover;
+  font-size: 16px; }
 
+.ui_paper {
+  margin: 30px auto 0;
+  width: 845px; }
 
-.ui_paper{		
-	margin: 30px auto 0;
-	width: 845px;	
-}
+.ui_paper__layout {
+  width: 400px;
+  margin: -11px 0px 0px -15px; }
 
-.ui_paper__layout{
-	width: 400px;	
-	margin: -11px 0px 0px -15px
-}
+.ui_paper__title {
+  text-align: left;
+  padding: 0px 0px 0px 0px;
+  font-size: 21px; }
 
-.ui_paper__title{
-	text-align: left;
-	padding: 0px 0px 0px 0px;
-	font-size: 22px;
-}
+.ui_paper__stamp {
+  width: 150px;
+  margin: -60px 0px 0px 209px; }
 
-.ui_paper__stamp{
-	width: 150px;
-	margin: -60px 0px 0px 209px;
-}
+.ui_paper__photo {
+  height: 584px;
+  width: 850px;
+  background: transparent url("https://www.filepicker.io/api/file/l8BaS3TQICkrECigrJzN") -88px 0px no-repeat;
+  border-radius: 2em; }
 
-.ui_paper__photo{
-	height: 584px;
-	width: 850px;
-	background: transparent url("https://www.filepicker.io/api/file/l8BaS3TQICkrECigrJzN") -88px 0px no-repeat;
-	margin: 0px 0px 0px 0px;
-	border-radius: 2em;
-}
+.ui_json {
+  margin: -560px 0px 0px 0px;
+  font-family: 'Special Elite', cursive; }
+  .ui_json ul {
+    padding-left: 30px; }
+  .ui_json, .ui_json ul, .ui_json li {
+    text-decoration: none;
+    list-style: none;
+    line-height: 25px; }
 
-.ui_json{
-	margin: -560px 0px 0px 0px;
-	font-family: 'Special Elite', cursive;
-}
+.ui_json__key {
+  color: #aa0000;
+  display: inline-block; }
 
-.ui_json ul{
-	padding-left: 30px;
-}
+.ui_json__key:before:before {
+  content: "\"";
+  color: black; }
+.ui_json__key:before:after {
+  content: "\":";
+  color: black; }
 
-.ui_json, .ui_json ul, .ui_json li{
-	text-decoration: none;
-	list-style: none;
-	line-height: 25px;
-}
+.ui_json__key-avatar {
+  line-height: 60px; }
 
-.ui_json__key{
-	color: #aa0000;
-	display: inline-block;
-}
-.ui_json__key:before{
-	content: "\"";
-	color: black;
-}
-.ui_json__key:after{
-	content: "\":";
-	color: black;	
-}
+.ui_json__value:before, .ui_json__value:after {
+  content: "\"";
+  color: black; }
 
-.ui_json__key-avatar{
-	line-height: 60px;	
-}
+.ui_json__value-avatar {
+  margin: 0px 0px -20px 20px; }
 
-.ui_json__value:before{
-	content: " \"";
-	color: black;	
-}
-.ui_json__value:after{
-	content: "\"";
-	color: black;		
-}
+.ui_json a {
+  color: black;
+  text-decoration: underline; }
+  .ui_json a:hover {
+    background: yellow;
+    text-decoration: none; }
 
+.debug {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-size: 22px; }
+  .debug:after {
+    content: "Browser"; }
 
-.ui_json__value-avatar{
-	margin: 0px 0px -20px 20px;
-}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .debug:after {
+    content: "iPhone 2G-4S in portrait/landscape"; }
 
-.ui_json a{
-	color: black;
-	text-decoration: underline;
-	
-}
-.ui_json a:hover{
-	background: yellow;
-	text-decoration: none;
-}
+  .ui_paper__layout {
+    width: 850px;
+    padding-left: 14px; }
 
-@media only screen and (max-device-width: 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
-	* {
-		font-size: 30px;
-		line-height: 50px;
-	}
-	.ui_paper{		
-		margin: 0 auto;		
-		line-height: 100px;
-	}
-	.ui_paper, .ui_paper__layout{
-		width: 800px;
-	}
-	.ui_json{
-		padding: 0 100px;
-		margin: -1160px 0px 0px 0px;
-	}
-	.ui_paper__title{
-		font-size: 1.3em;
-	}
-	.ui_paper__stamp{
-		width: 350px;
-		margin: -30px 0px 0px 400px;
-	}
-}
+  .ui_json {
+    margin-top: -1200px;
+    padding-left: 60px; }
+    .ui_json, .ui_json ul, .ui_json li {
+      font-size: 45px;
+      line-height: 55px; }
+
+  .ui_paper__title {
+    font-size: 59.0625px; }
+
+  .ui_paper__stamp {
+    margin: -150px 0px 0px 480px;
+    width: 300px; }
+
+  .ui_paper__photo {
+    height: 2100px;
+    width: 850px;
+    background: transparent url("https://www.filepicker.io/api/file/l8BaS3TQICkrECigrJzN") -300px 1220px no-repeat;
+    border-radius: 2em; } }
