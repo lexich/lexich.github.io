@@ -13,7 +13,9 @@
 
   <title><%= title %></title>
   <link rel="stylesheet" href="static/css/lexich.css">
+  <% if(lang == "en"){ %>
   <link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+  <% } %>
   <% _.each(lang_pages, function(href, lang){ %>
   <link rel="alternate" hreflang="<%= lang %>" href="<%= href %>" />
   <% }); %>
