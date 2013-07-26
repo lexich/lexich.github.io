@@ -39,13 +39,12 @@ body {
 .ui_json__key {
   color: #aa0000;
   display: inline-block; }
-
-.ui_json__key:before:before {
-  content: "\"";
-  color: black; }
-.ui_json__key:before:after {
-  content: "\":";
-  color: black; }
+  .ui_json__key:before {
+    content: "\"";
+    color: black; }
+  .ui_json__key:after {
+    content: "\":";
+    color: black; }
 
 .ui_json__key-avatar {
   line-height: 60px; }

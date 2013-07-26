@@ -52,8 +52,6 @@ body{
 .ui_json__key{
 	color: #aa0000;
 	display: inline-block;
-}
-.ui_json__key:before{
 	&:before{
 		content: "\"";
 		color: black;
