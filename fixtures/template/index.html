@@ -14,8 +14,17 @@
   <title><%= title %></title>
   <link rel="stylesheet" href="static/css/lexich.css">
   <% if(lang == "en"){ %>
-  <link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>  
   <% } %>
+  <style>
+  .ui_json{
+    <% if(lang == "en"){ %>
+    font-family: 'Special Elite', cursive;
+    <% } else { %>
+    font-family: cursive;
+    <% } %>
+  }
+  </style>
   <% _.each(lang_pages, function(href, lang){ %>
   <link rel="alternate" hreflang="<%= lang %>" href="<%= href %>" />
   <% }); %>
