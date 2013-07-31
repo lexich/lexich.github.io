@@ -1,5 +1,8 @@
-$background-image: "https://www.filepicker.io/api/file/3roRWAohSweiKzdCjJX1";
-$photo-image: "https://www.filepicker.io/api/file/l8BaS3TQICkrECigrJzN";
+//$background-image: "https://www.filepicker.io/api/file/3roRWAohSweiKzdCjJX1?cache=true";
+//$photo-image: "https://www.filepicker.io/api/file/l8BaS3TQICkrECigrJzN?cache=true";
+$background-image: "../img/background.jpg";
+$photo-image: "../img/photo.jpg";
+
 $font-size: 16px;
 $font-title-inc: 21px/16px;
 body{

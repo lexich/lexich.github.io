@@ -1,5 +1,5 @@
 body {
-  background: white url("https://www.filepicker.io/api/file/3roRWAohSweiKzdCjJX1") 100% 0 repeat-y;
+  background: white url("../img/background.jpg") 100% 0 repeat-y;
   background-size: cover;
   font-size: 16px; }
 
@@ -23,12 +23,12 @@ body {
 .ui_paper__photo {
   height: 584px;
   width: 850px;
-  background: transparent url("https://www.filepicker.io/api/file/l8BaS3TQICkrECigrJzN") -88px 0px no-repeat;
+  background: transparent url("../img/photo.jpg") -88px 0px no-repeat;
   border-radius: 2em; }
 
 .ui_json {
   margin: -560px 0px 0px 0px;
-  font-family: 'Special Elite', cursive; }
+  font-family: "Special Elite", cursive; }
   .ui_json ul {
     padding-left: 30px; }
   .ui_json, .ui_json ul, .ui_json li {
@@ -96,5 +96,5 @@ body {
   .ui_paper__photo {
     height: 2100px;
     width: 850px;
-    background: transparent url("https://www.filepicker.io/api/file/l8BaS3TQICkrECigrJzN") -300px 1220px no-repeat;
+    background: transparent url("../img/photo.jpg") -300px 1220px no-repeat;
     border-radius: 2em; } }
