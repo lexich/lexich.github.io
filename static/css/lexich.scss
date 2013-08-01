@@ -3,8 +3,8 @@
 $background-image: "../img/background.jpg";
 $photo-image: "../img/photo.jpg";
 
-$font-size: 16px;
-$font-title-inc: 21px/16px;
+$font-size: 1.1em;
+$font-title-inc: 1.3em/1.1em;
 body{
 	background: #FFF url($background-image) 100% 0 repeat-y;
 	background-size: cover;
@@ -48,7 +48,7 @@ body{
 	&, ul, li{
 		text-decoration: none;
 		list-style: none;
-		line-height: 25px;
+		line-height: 1.4em;
 	}
 }
 
@@ -99,37 +99,43 @@ body{
 	}
 }
 
+@mixin iphone4(){
+  //$font-size: 45px;
+  $layout-width: 850px;
+  .debug:after{
+      content: "iPhone 2G-4S in portrait/landscape";
+  }
+  .ui_paper__layout{
+      width: $layout-width;
+      padding-left: 14px;
+  }
+  .ui_json{
+      margin-top: -1200px;
+      padding-left: 60px;
+      &, ul, li{
+          font-size: $font-size;
+          line-height: 2em;
+      }
+  }
+  .ui_paper__title{
+      font-size: $font-size * $font-title-inc;
+  }
+  .ui_paper__stamp{
+      margin: -150px 0px 0px 480px;
+      width: 300px;
+  }
+  .ui_paper__photo{
+      height: 2100px;
+      width: 850px;
+      background: transparent url($photo-image) -300px 1220px no-repeat;
+      border-radius: 2em;
+  }
+}
 
-@media only screen  and (min-device-width : 320px)  and (max-device-width : 480px) { 	
 
-	$font-size: 45px;
-	$layout-width: 850px;
-	.debug:after{
-		content: "iPhone 2G-4S in portrait/landscape";
-	}
-	.ui_paper__layout{
-		width: $layout-width;
-		padding-left: 14px;
-	}
-	.ui_json{
-		margin-top: -1200px;
-		padding-left: 60px;
-		&, ul, li{			
-			font-size: $font-size;
-			line-height: 55px;	
-		}		
-	}
-	.ui_paper__title{		
-		font-size: $font-size * $font-title-inc;
-	}
-	.ui_paper__stamp{
-		margin: -150px 0px 0px 480px;
-		width: 300px;
-	}
-	.ui_paper__photo{
-		height: 2100px;
-		width: 850px;
-		background: transparent url($photo-image) -300px 1220px no-repeat;	
-		border-radius: 2em;		
-	}
+@media only screen and (min-device-width : 320px)  and (max-device-width : 480px){
+  @include iphone4();
+}
+@media (min-width : 320px)  and (max-width : 480px){
+  @include iphone4();
 }

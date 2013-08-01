@@ -1,7 +1,7 @@
 body {
   background: white url("../img/background.jpg") 100% 0 repeat-y;
   background-size: cover;
-  font-size: 16px; }
+  font-size: 1.1em; }
 
 .ui_paper {
   margin: 30px auto 0;
@@ -14,7 +14,7 @@ body {
 .ui_paper__title {
   text-align: left;
   padding: 0px 0px 0px 0px;
-  font-size: 21px; }
+  font-size: 1.3em; }
 
 .ui_paper__stamp {
   width: 150px;
@@ -28,13 +28,13 @@ body {
 
 .ui_json {
   margin: -560px 0px 0px 0px;
-  font-family: "Special Elite", cursive; }
+  font-family: 'Special Elite', cursive; }
   .ui_json ul {
     padding-left: 30px; }
   .ui_json, .ui_json ul, .ui_json li {
     text-decoration: none;
     list-style: none;
-    line-height: 25px; }
+    line-height: 1.4em; }
 
 .ui_json__key {
   color: #aa0000;
@@ -83,11 +83,38 @@ body {
     margin-top: -1200px;
     padding-left: 60px; }
     .ui_json, .ui_json ul, .ui_json li {
-      font-size: 45px;
-      line-height: 55px; }
+      font-size: 1.1em;
+      line-height: 2em; }
 
   .ui_paper__title {
-    font-size: 59.0625px; }
+    font-size: 1.3em; }
+
+  .ui_paper__stamp {
+    margin: -150px 0px 0px 480px;
+    width: 300px; }
+
+  .ui_paper__photo {
+    height: 2100px;
+    width: 850px;
+    background: transparent url("../img/photo.jpg") -300px 1220px no-repeat;
+    border-radius: 2em; } }
+@media (min-width: 320px) and (max-width: 480px) {
+  .debug:after {
+    content: "iPhone 2G-4S in portrait/landscape"; }
+
+  .ui_paper__layout {
+    width: 850px;
+    padding-left: 14px; }
+
+  .ui_json {
+    margin-top: -1200px;
+    padding-left: 60px; }
+    .ui_json, .ui_json ul, .ui_json li {
+      font-size: 1.1em;
+      line-height: 2em; }
+
+  .ui_paper__title {
+    font-size: 1.3em; }
 
   .ui_paper__stamp {
     margin: -150px 0px 0px 480px;

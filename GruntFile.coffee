@@ -3,22 +3,28 @@ module.exports = (grunt) ->
     template:
       dev:
         languages:
-          ru:"fixtures/data/ru.json"        
-          default:"fixtures/data/en.json"
+          "ru":"fixtures/data/ru.json"
+          "default":"fixtures/data/en.json"
         path:"fixtures/template/index.html"
         out:"./"
         lang_pages: 
           "en-us":"http://lexich.ru/index.html"
           "ru":"http://lexich.ru/ru.html"
+      release:
+        languages: "<%= template.dev.languages %>"
+        path: "<%= template.dev.path %>"
+        out: "<%= template.dev.out %>"
+        lang_pages: "<%= template.dev.lang_pages %>"
+
     sass:
-      dev:
+      dist:
         files:
           "static/css/lexich.css":"static/css/lexich.scss"
 
     watch:
       sass:
         files:"static/css/*.scss"
-        tasks:["sass:dev"]
+        tasks:["sass:dist"]
         options:
           livereload:true
       template:
@@ -37,6 +43,7 @@ module.exports = (grunt) ->
 
     grunt.util._.each @data.languages, (fixture, lang)=>
       data = grunt.file.readJSON fixture
+      data.target = @target
       grunt.util._.extend data, lang_pages:@data.lang_pages        
       
       out = grunt.util._.template(template, data)      
@@ -53,8 +60,8 @@ module.exports = (grunt) ->
       app.use "/", express.static(@data.base)
     app.listen(@data.port)
 
-  grunt.registerTask "default", ["template:dev","sass:dev", "server:dev", "watch"]
+  grunt.registerTask "default", ["template:dev","sass:dist", "server:dev", "watch"]
+  grunt.registerTask "release", ["template:release", "sass:dist"]
   
   grunt.loadNpmTasks "grunt-contrib-sass"
   grunt.loadNpmTasks "grunt-contrib-watch"
-  grunt.loadNpmTasks "grunt-contrib-connect"

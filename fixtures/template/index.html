@@ -2,17 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="shortcut icon" href="https://www.filepicker.io/api/file/l0QPlYdAS1Ktq7CvdVEB" type="image/x-icon" />
+  <%
+    var resourse = {};
+    resourse.avatar = "https://www.filepicker.io/api/file/WvjMnum8TO26nmywBEfH";
+    resourse.favicon = "https://www.filepicker.io/api/file/l0QPlYdAS1Ktq7CvdVEB";
+    if(target=="dev"){
+      resourse.avatar = "static/img/avatar.gif";
+      resourse.favicon = "static/img/favicon.ico";
+    }
+  %>
+  <link rel="shortcut icon" href="<%= resourse.favicon %>" type="image/x-icon" />
   <!-- For iPhone 4 Retina display: -->
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.filepicker.io/api/file/WvjMnum8TO26nmywBEfH">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<%= resourse.avatar %>">
   <!-- For iPad: -->
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.filepicker.io/api/file/WvjMnum8TO26nmywBEfH">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<%= resourse.avatar %>">
 
   <!-- For iPhone: -->
-  <link rel="apple-touch-icon-precomposed" href="https://www.filepicker.io/api/file/WvjMnum8TO26nmywBEfH">  
-
+  <link rel="apple-touch-icon-precomposed" href="https://www.filepicker.io/api/file/WvjMnum8TO26nmywBEfH">
   <title><%= title %></title>
-  <link rel="stylesheet" href="static/css/lexich.css">
+  <link rel="stylesheet" href="static/css/lexich.css" type="text/css">
   <% if(lang == "en"){ %>
   <link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>  
   <% } %>
@@ -60,7 +68,7 @@
               <li><a class="ui_json__value" href="https://github.com/lexich/">Github</a>, </li>
               <li><a class="ui_json__value" href="http://pdj.com/yalexich">PromoDJ</a>, </li>
               <li><a class="ui_json__value" href="http://www.linkedin.com/pub/alexey-efremov/20/3a4/810">LinkedIn</a>, </li>
-              <li><a class="ui_json__value" h ref="http://twitter.com/lexich">Twitter</a>, </li>
+              <li><a class="ui_json__value" href="http://twitter.com/lexich">Twitter</a>, </li>
               <li><a class="ui_json__value" href="http://vk.com/yalexich">VK</a>, </li>
               <li><a class="ui_json__value" href="http://facebook.com/lexich">Facebook</a> </li>
             </ul>
@@ -74,6 +82,14 @@
     <img src="https://www.filepicker.io/api/file/EQxmXC5cRaWxni9avRKU" alt="" class="ui_paper__stamp">
   </div>  
 </div>
-<script src="http://192.168.0.103:35729/livereload.js"></script>
+<% if(target=="dev"){ %>
+<script type="text/javascript">
+  (function(){
+    var path = "http://" + window.location.hostname + ":35729/livereload.js";
+    document.write('\x3Cscript type="text/javascript" src="' + path +'">\x3C/script>')
+  })();
+</script>
+<div class="debug"></div>
+<% } %>
 </body>
 </html>
