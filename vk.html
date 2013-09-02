@@ -7,11 +7,27 @@
 <body>
 	<script src="http://vk.com/js/api/openapi.js" type="text/javascript"></script>
 
-<div id="login_button" onclick="VK.Auth.login(authInfo);"></div>
 
+<h1>Lexich VK page</h1>
+<p>
+	<a href="#" id="vk-login">Login</a>
+	<a href="#" id="vk-logout">LogOut</a>
+</p>
 <script language="javascript">
-console.log(window.location);
-console.log(VK);
+VK.init({
+    apiId: 3857256
+});
+$('a#vk-login').click(function(event){
+    event.preventDefault();
+    VK.Auth.login(null, VK.access.FRIENDS);
+});
+
+$('a#vk-logout').click(function(event){
+    event.preventDefault();
+    VK.Auth.logout(function(){
+        refreshPage(false);
+    });
+});
 </script>
 
 </body>
