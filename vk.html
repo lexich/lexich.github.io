@@ -29,7 +29,7 @@ $('a#vk-login').click(function(event){
 $('a#vk-logout').click(function(event){
     event.preventDefault();
     VK.Auth.logout(function(){
-        refreshPage(false);
+        console.log("logout");
     });
 });
 </script>
