@@ -17,9 +17,13 @@
 VK.init({
     apiId: 3857256
 });
+
+var ACCESS_ROLE=0;
+for(var key in VK.access){ ACCESS_ROLE+=VK.access[key]; }
+
 $('a#vk-login').click(function(event){
     event.preventDefault();
-    VK.Auth.login(null, VK.access.FRIENDS);
+    VK.Auth.login(null, ACCESS_ROLE);
 });
 
 $('a#vk-logout').click(function(event){
