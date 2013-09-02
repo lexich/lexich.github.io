@@ -5,8 +5,24 @@
 	<title>Vk apii</title>
 </head>
 <body>
-	<script>
-	console.log(window);
-	</script>
+	<script src="http://vk.com/js/api/openapi.js" type="text/javascript"></script>
+
+<div id="login_button" onclick="VK.Auth.login(authInfo);"></div>
+
+<script language="javascript">
+VK.init({
+  apiId: 3856638
+});
+function authInfo(response) {
+  if (response.session) {
+    alert('user: '+response.session.mid);
+  } else {
+    alert('not auth');
+  }
+}
+VK.Auth.getLoginStatus(authInfo);
+VK.UI.button('login_button');
+</script>
+
 </body>
 </html>
