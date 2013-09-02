@@ -16,6 +16,11 @@ VK.init({
 function authInfo(response) {
   if (response.session) {
     alert('user: '+response.session.mid);
+    VK.Api.call('users.get', {uids: 6492}, function(r) { 
+  	if(r.response) { 
+    	alert('Привет, ' + r.response[0].first_name); 
+  	} 
+    }); 
   } else {
     alert('not auth');
   }
