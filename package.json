@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "\"`locate-chrome`\" --headless --no-margins --run-all-compositor-stages-before-draw --run-all-compositor-stages-before-draw --window-size=1980,4320 --print-to-pdf='./Efremov_Alexey_CV.pdf' CV.html",
-    "deploy": "npm run build; gh-pages -d public"
+    "build": "\"`locate-chrome`\" --headless --no-margins --run-all-compositor-stages-before-draw --run-all-compositor-stages-before-draw --window-size=1980,4320 --print-to-pdf='./public/Efremov_Alexey_CV.pdf' public/index.html",
+    "deploy": "gh-pages -d public"
   },
   "repository": {
     "type": "git",
