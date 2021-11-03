@@ -91,6 +91,13 @@
         top: 8px;
         margin: 0 4px;
       }
+      .document {
+        width: 23px;
+        margin-right: 4px;
+        margin-left: 4px;
+        position: relative;
+        top: 7px;
+      }
       article {
         text-align: justify;
       }
@@ -106,6 +113,11 @@
       .flatlist li {
         float: left;
         margin-right: 30px;
+      }
+      @media print {
+        .no-print, .no-print * {
+          display: none !important;
+        }
       }
     </style>
     <script>
@@ -139,6 +151,8 @@
         <a href="https://www.linkedin.com/in/alexeyefremov/"
           ><img class="linkedin" src="assets/linkedin.svg" />alexeyefremov</a>
         <a href="https://github.com/lexich"><img class="github big" src="assets/github.svg" />lexich</a>
+
+        <a class="no-print" href="/Efremov_Alexey_CV.pdf" target="_blank"><img class="document" src="assets/document.svg"/>CV</a>
       </p>
     </header>
     <section>
@@ -147,8 +161,8 @@
       </header>
       <article>
         I'm an enthusiastic and self-motivated programmer from Tver, Russia. I
-        have over 13 years of professional experience in software development
-        and over 8 years working in the web area. I love to automate routine
+        have over <script>document.write(dayjs().diff(dayjs('2007-10-1'), 'year'))</script> years of professional experience in software development
+        and over <script>document.write(dayjs().diff(dayjs('2012-10-1'), 'year'))</script> years working in the web area. I love to automate routine
         work and accelerate my productivity. Also, I'm an active member of the
         Open Source community and speaker at <a href="https://tver.io"><img class="tverio" src="assets/tverio.svg" />tver.io</a> meetups. In my
         mind, the best developer should improve himself and learn new things
